@@ -54,7 +54,7 @@
                                             <li><a href="{{ route('home') }}">Inicio</a></li>
                                             <li><a href="#nosotros">Nosotros</a></li>
                                             <li><a href="{{ route('noticias') }}">Noticias</a></li>
-                                            <li><a href="#">Proyectos</a></li>
+                                            <li><a href="{{ route('proyectos') }}">Proyectos</a></li>
                                             <li style="width:24%"><a href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
                                         </ul>
                                     </div>

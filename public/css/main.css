@@ -37,6 +37,7 @@ p{
 
 h2{
     text-align: center;
+    text-align: justify;
 }
 
 h3 {
@@ -45,6 +46,7 @@ h3 {
 
 section {
     margin-top: 100px;
+    text-align: justify;
 }
 
 section article{
