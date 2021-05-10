@@ -1,0 +1,12 @@
+#noticias article{
+    margin:0px
+}
+
+#noticias article h2{
+    text-align: left;
+}
+
+#noticias article button{
+    width: 150px;height:50px
+}
+
