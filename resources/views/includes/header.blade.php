@@ -35,43 +35,32 @@
            
                 <nav class="container" style="width: 100%; height:100%;padding:10px">
 
-                    <div id="categorias" style="margin: auto;height: 100%;width: 100%">
+                    <div style="margin: auto;height: 100%;width: 100%">
 
-                        <div class="" style="float: left; padding-left:50px; margin-top:20px;">
+                        <div class="" style="float: left; padding-left:50px; margin-top:10px">
                             <div class="float-right">
                                 <a href="{{ route('home') }}">
-                                    <img style="width:140px;height:110px;" src="{{asset("imgs/logo.jpg")}}" alt="">
+                                    <img style="width:140px;height:110px" src="{{asset("imgs/logo.jpg")}}" alt="">
                                 </a>
                             </div>
                         </div>
 
-                        <div class="" style="float: right;width:80%">
+                        <div class="" style="float: right;padding-top:30px">
                         
                                 <div class="row p-3">
 
-                                    <div class="col-md-12" style="text-align: right;margin-left:30px;position: relative;top: 15px;">
+                                    <div class="col-md-12" style="text-align: right;margin-left:30px">
                                         <ul id="menu">
                                             <li><a href="{{ route('home') }}">Inicio</a></li>
                                             <li><a href="#nosotros">Nosotros</a></li>
                                             <li><a href="{{ route('noticias') }}">Noticias</a></li>
                                             <li><a href="#">Proyectos</a></li>
-                                            {{-- <li style="width:24%"><a href="#">Lineas de Acción</a></li> --}}
-                                            <ul class="menu menu m-0">
-                                                <li style="width:25%"><a href="#">Lineas de Acción</a>
-                                                    <ul class="pb-2">
-                                                        <li class="" style="float: none;width:150px"><a href="">Dolor</a></li>
-                                                        <li class="" style="float: none;width:150px"><a href="">Dolor</a></li>
-                                                        <li class="" style="float: none;width:150px"><a href="">Dolor</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <li style="width:24%"><a href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
                                         </ul>
                                     </div>
                                 </div>
                         
                         </div>
-
-
 
                     </div>
 

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\NoticiasController;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\LineasAccionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,5 @@ use App\Http\Controllers\IndexController;
 Route::get('/', [IndexController::class, "index"])->name('home');
 
 Route::get('/noticias', [NoticiasController::class, "index"])->name('noticias');
+
+Route::get('/lineas_de_acción', [LineasAccionController::class, "show"])->name('lineas_accion');

@@ -13,7 +13,7 @@ header {
     /*background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(37, 37, 37, 0.363) 30%, rgba(0, 0, 0, 0.459) 80%); */
     /* background: linear-gradient(0deg, rgba(255,255,255,0) 9%, rgba(82, 82, 82, 0.541) 32%, rgba(33,33,33,0.8519782913165266) 75%); */
     background-color: white;
-    height: 100px;
+    height: 150px;
     z-index: 2;
     position: absolute;
     top:0;
@@ -78,12 +78,15 @@ section article{
 }
 
 
-#menu li {
+#menu  li {
     list-style: none;
     float: left;
-    width:15%;
+    width:7%;
+    margin-right: 35px;
+    margin-left: 35px;
     text-align: center;
 }
+
 
 #menu li a{
     font-size: 17px;
@@ -92,8 +95,6 @@ section article{
     transition: all 500ms;
     font-weight: bold;
     font-size: 18px;
-    height: 50px;
-    display: block;
 }
 
 #menu li a:hover{
@@ -182,83 +183,18 @@ a:hover {
     transform: translateY(0px);
 }
 
-/*   */
 
+/* LINEAS ACCIÓN */
 
-/* MENÚ DESPLEGABLE */
-
-.menu, .menu ul, .menu li, .menu a {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-  }
-  
-  .menu {
-    z-index:1;
-    cursor: pointer;
-    height: 100%;
-  }
-  
-  .menu li {
-    position: relative;
+#menu_lineas_accion li{
     list-style: none;
-    /* float: left; */
-    display: block;
-    height: 100%;
-  }
-  
-  .menu a {
-    display: block;
-    /* padding: 0 16px;
-    margin: 6px 0;
-    line-height: 28px; */
-    text-decoration: none;
+    float: left;
+    margin-right: 35px;
+    margin-left: 35px;
+    text-align: center;
     
-    color: rgb(194, 194, 194);
-    
-    /* border-left: 1px solid #393942;
-    border-right: 1px solid #4f5058; */
-    transition: color .2s ease-in-out;
-  }
-  
-  .menu li:firs-child a {border-left: none;}
-  .menu li:last-child a {border-right: none;}
-  
-  .menu li:hover > a {color: rgb(255, 255, 255)}
-  
-  .menu li ul {
-    position: absolute;
-    top: 85px;
-    opacity: 0;
-    border-radius: 0px 0px 5px 5px; 
-    background-color: rgb(245, 180, 28);
-    display:none;
-    transition: opacity .20s ease .1s;
-  }
-  
-  .menu li:hover > ul {
-    opacity: 1;
-    display:block;
-  }
-  
-  .menu ul li {
-    height: 0;
-    overflow: hidden;
-    padding: 0;
-    transition: height .25s ease .1s;
-  }
-  
-  .menu li:hover > ul li {
-    height: 36px;
-    overflow: visible;
-    padding: 0;
-  }
-  
-  .menu ul li a {
-    padding: 4px 10px;
-    margin: 0;
-    border: none;
-  
-  }
-  .menu ul li:last-child a { border: none; }
+}
+
+#menu_lineas_accion li a{
+    color: white;
+}
