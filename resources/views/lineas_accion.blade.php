@@ -7,7 +7,7 @@
 
 {{-- MENÚ --}}
 
-    <div class="d-flex justify-content-center" style="position:sticky;top:0px;z-index:1;background: rgb(255, 175, 2);height:60px">
+    <div class="d-flex justify-content-center" style="position:sticky;top:0px;z-index:1;background: rgb(255, 175, 2);height:65px">
         <ul id="menu_lineas_accion" class="d-flex justify-content-center mt-2" style="padding-top:10px">
             <li style="margin-left:0px"><a href="#educacion">Educación</a></li>
             <li><a href="#blibioteca">Bibliotecas comunitaria</a></li>
