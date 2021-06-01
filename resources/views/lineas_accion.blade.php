@@ -47,42 +47,28 @@
             <div id="images" class="mt-5">
 
                 <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
+                    <div id="slider1" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#slider1" data-slide-to="0" class="active"></li>
+                          <li data-target="#slider1" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                          </div>
+
                         </div>
+
                     </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
   
-                
             </div>
 
         </div>
@@ -104,26 +90,28 @@
             <div id="images" class="mt-5">
 
                 <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
+
+                    <div id="slider2" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#slider2" data-slide-to="0" class="active"></li>
+                          <li data-target="#slider2" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                          </div>
+
                         </div>
+
                     </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+
                 </div>
                 
                 
@@ -155,52 +143,30 @@
             <div id="images" class="mt-5">
 
                 <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
+                    
+                    <div id="slider3" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#slider3" data-slide-to="0" class="active"></li>
+                          <li data-target="#slider3" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                          </div>
+
                         </div>
+
                     </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+
                 </div>
 
-                
-                <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
-                
             </div>
 
         </div>
@@ -227,52 +193,30 @@
         <div id="images" class="mt-5">
 
             <div class="row" style="margin-bottom:50px">
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
+               
+                <div id="slider4" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                      <li data-target="#slider4" data-slide-to="0" class="active"></li>
+                      <li data-target="#slider4" data-slide-to="1"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                      </div>
+
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                      </div>
+
                     </div>
+
                 </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
+
             </div>
 
-            
-            <div class="row" style="margin-bottom:50px">
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="col">
-                    <div style="height:220px; width:100%;background-color:black">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-            
         </div>
 
     </div>        
@@ -303,21 +247,28 @@
             <div id="images" class="mt-5">
 
                 <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
+
+                    <div id="slider5" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#slider5" data-slide-to="0" class="active"></li>
+                          <li data-target="#slider5" data-slide-to="1"></li>
+                        </ol>
+    
+                        <div class="carousel-inner">
+    
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                          </div>
+    
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                          </div>
+    
                         </div>
+    
                     </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:250px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+
                 </div>
                 
             </div>
@@ -341,26 +292,28 @@
             <div id="images" class="mt-5">
 
                 <div class="row" style="margin-bottom:50px">
-                    <div class="col">
-                           <div style="height:220px; width:100%;background-color:black">
-                             <img src="" alt="">
-                         </div>
-                    </div>
-                     <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
+
+                    <div id="slider6" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                          <li data-target="#slider6" data-slide-to="0" class="active"></li>
+                          <li data-target="#slider6" data-slide-to="1"></li>
+                        </ol>
+    
+                        <div class="carousel-inner">
+    
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                          </div>
+    
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                          </div>
+    
                         </div>
+    
                     </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div style="height:220px; width:100%;background-color:black">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+                    
                 </div>
                         
             </div>

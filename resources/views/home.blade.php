@@ -1,10 +1,12 @@
 @include('includes.header')
   
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width:50px; height: 8px"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width:50px; height: 8px"></li>
     </ol>
+
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100"  style="max-height:800px" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
@@ -13,7 +15,8 @@
         <img class="d-block w-100" style="max-height:800px" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
       </div>
     </div>
-  </div>
+    
+</div>
 
 
 {{-- <div class="slider">

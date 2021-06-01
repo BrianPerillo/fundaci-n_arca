@@ -199,4 +199,9 @@ a:hover {
 
 #menu_lineas_accion li a{
     color: white;
+    transition: all 100ms;
+}
+
+#menu_lineas_accion li a:hover{
+    font-weight: bold;
 }
