@@ -15,8 +15,8 @@ header {
     background-color: white;
     /* height: 150px; */
     z-index: 2;
-    position: absolute;
-    top:0;
+    /* position: absolute;
+    top:0; */
     width: 100%;
     /* box-shadow: 10px 30px 40px rgb(29, 29, 29); */
     box-shadow: 2px 2px 20px rgba(235, 234, 234, 0.63);
@@ -194,14 +194,14 @@ a:hover {
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
-    
+    color: white;
+    transition: all 500ms;
 }
 
 #menu_lineas_accion li a{
     color: white;
-    transition: all 100ms;
 }
 
-#menu_lineas_accion li a:hover{
+#menu_lineas_accion li:hover{
     font-weight: bold;
 }

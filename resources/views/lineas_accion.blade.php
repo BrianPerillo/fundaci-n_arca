@@ -46,7 +46,7 @@
 
             <div id="images" class="mt-5">
 
-                <div class="row" style="margin-bottom:50px">
+                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
 
                     <div id="slider1" class="carousel slide" data-ride="carousel">
 
@@ -55,14 +55,14 @@
                           <li data-target="#slider1" data-slide-to="1"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="width:400px">
 
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                            <img class="d-block w-100" src="https://static.wixstatic.com/media/9da56f_e3890ac5078b44eca09a716af4471fe9~mv2.jpg/v1/fill/w_241,h_250,al_c,q_80,usm_0.33_1.00_0.00/9da56f_e3890ac5078b44eca09a716af4471fe9~mv2.webp" alt="First slide">
                           </div>
 
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="https://static.wixstatic.com/media/9da56f_3fbed0496222488bb8c0cac0fc32d868~mv2.jpg/v1/fill/w_241,h_250,al_c,q_80,usm_0.33_1.00_0.00/9da56f_3fbed0496222488bb8c0cac0fc32d868~mv2.webp" alt="Second slide">
                           </div>
 
                         </div>
@@ -89,16 +89,16 @@
 
             <div id="images" class="mt-5">
 
-                <div class="row" style="margin-bottom:50px">
+                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
 
-                    <div id="slider2" class="carousel slide" data-ride="carousel">
+                    <div id="slider2" class="carousel slide" data-ride="carousel" style="width:400px">
 
                         <ol class="carousel-indicators">
                           <li data-target="#slider2" data-slide-to="0" class="active"></li>
                           <li data-target="#slider2" data-slide-to="1"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="width:400px">
 
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
@@ -142,7 +142,7 @@
 
             <div id="images" class="mt-5">
 
-                <div class="row" style="margin-bottom:50px">
+                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
                     
                     <div id="slider3" class="carousel slide" data-ride="carousel">
 
@@ -151,7 +151,7 @@
                           <li data-target="#slider3" data-slide-to="1"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="width:400px">
 
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
@@ -192,7 +192,7 @@
 
         <div id="images" class="mt-5">
 
-            <div class="row" style="margin-bottom:50px">
+            <div class="row d-flex justify-content-center" style="margin-bottom:50px">
                
                 <div id="slider4" class="carousel slide" data-ride="carousel">
 
@@ -201,7 +201,7 @@
                       <li data-target="#slider4" data-slide-to="1"></li>
                     </ol>
 
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="width:400px">
 
                       <div class="carousel-item active">
                         <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
@@ -246,7 +246,7 @@
 
             <div id="images" class="mt-5">
 
-                <div class="row" style="margin-bottom:50px">
+                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
 
                     <div id="slider5" class="carousel slide" data-ride="carousel">
 
@@ -255,7 +255,7 @@
                           <li data-target="#slider5" data-slide-to="1"></li>
                         </ol>
     
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="width:400px">
     
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
@@ -291,7 +291,7 @@
         
             <div id="images" class="mt-5">
 
-                <div class="row" style="margin-bottom:50px">
+                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
 
                     <div id="slider6" class="carousel slide" data-ride="carousel">
 
@@ -300,7 +300,7 @@
                           <li data-target="#slider6" data-slide-to="1"></li>
                         </ol>
     
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="width:400px">
     
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">

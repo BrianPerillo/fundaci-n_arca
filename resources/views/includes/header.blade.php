@@ -31,30 +31,30 @@
 
     <body>
            <header id="header">
-            <nav class="navbar navbar-expand-lg" style="width:50%; margin:auto; height:100%; padding:10px">
+                <nav class="navbar navbar-expand-lg" style="width:50%; margin:auto; height:100%; padding:10px">
 
-                <a href="{{ route('home') }}" class="navbar-brand" data-abc="true">
-                    <img style="width:140px;height:110px" src="{{asset("imgs/logo.jpg")}}" alt="">
-                </a> 
+                    <a href="{{ route('home') }}" class="navbar-brand" data-abc="true">
+                        <img style="width:140px;height:110px" src="{{asset("imgs/logo.jpg")}}" alt="">
+                    </a> 
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="fa fa-bars" aria-hidden="true"></span> 
-                </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
+                        <span class="fa fa-bars" aria-hidden="true"></span> 
+                    </button>
 
-                <div class="collapse navbar-collapse" id="navbarColor02"> 
+                    <div class="collapse navbar-collapse" id="navbarColor02"> 
 
-                    <ul id="menu" class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('noticias') }}">Noticias</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('proyectos') }}">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('donation') }}">Donar</a></li>
-                    </ul>
+                        <ul id="menu" class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('noticias') }}">Noticias</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('proyectos') }}">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('donation') }}">Donar</a></li>
+                        </ul>
 
-                </div>
+                    </div>
 
-            </nav>
-        </div>
+                </nav>
+            </header>
                 {{-- 
 
                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#" data-abc="true">BBBOOTSTRAP</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
