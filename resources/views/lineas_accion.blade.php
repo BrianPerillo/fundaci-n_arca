@@ -291,17 +291,47 @@
                     <ol class="carousel-indicators">
                       <li data-target="#slider4" data-slide-to="0" class="active"></li>
                       <li data-target="#slider4" data-slide-to="1"></li>
+                      <li data-target="#slider4" data-slide-to="2"></li>
+                      <li data-target="#slider4" data-slide-to="3"></li>
+                      <li data-target="#slider4" data-slide-to="4"></li>
+                      <li data-target="#slider4" data-slide-to="5"></li>
+                      <li data-target="#slider4" data-slide-to="6"></li>
+                      <li data-target="#slider4" data-slide-to="7"></li>
                     </ol>
 
                     <div class="carousel-inner" style="width:400px">
 
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
-                      </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Tercera.jpg')}}" alt="First slide">
+                        </div>
 
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
-                      </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Primera.jpg')}}" alt="Second slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Segunda.jpg')}}" alt="Third slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Cuarta.jpg')}}" alt="Fourth slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Quinta.jpg')}}" alt="Fifth slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Sexta.jpg')}}" alt="Sixth slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Septima.jpg')}}" alt="Seventh slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/esterilizacion/Octava.jpg')}}" alt="Eighth slide">
+                        </div>
 
                     </div>
 
