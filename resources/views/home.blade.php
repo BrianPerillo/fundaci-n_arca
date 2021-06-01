@@ -25,7 +25,7 @@
 </div> --}}
 
 
-<section id="about_us" style="margin-top:100px">
+<section id="about_us" style="margin-top:50px">
 
     <div class="container" style="margin-bottom:10px">
         <h2 style="text-align: center;font-size:60px;color:grey">Fundación Arca</h2>
