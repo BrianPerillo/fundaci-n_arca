@@ -5,7 +5,7 @@
 
     <section id="noticias" class="">
 
-        <article>
+        <article class="p-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col pl-5 pr-5 pb-5">
                 <h2>Fundación ARCA realiza jornadas de salud animal en Mocoa y Puerto Asís</h2>
                 <p>28 de febrero, 2014 por MiPutumayo</p>
@@ -18,7 +18,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Fundación ARCA le apuesta al cuidado y bienestar animal</h2>
                 <p>19 de marzo, 2014 por MiPutumayo</p>
@@ -34,7 +34,7 @@
             </div>  
         </article>
         
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Mocoa y Puerto Asís, unidos en la defensa animal</h2>
                 <p>6 de octubre, 2014 por MiPutumayo</p>
@@ -48,7 +48,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Primer Foro de Protección Animal en el Departamento del Putumayo</h2>
                 <p>23 de junio, 2015 por MiPutumayo</p>
@@ -65,7 +65,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Fundación ARCA y Secretaría de Salud Departamental, unidas por la salud y protección animal</h2>
                 <p>2 de mayo, 2016 por MiPutumayo</p>
@@ -81,7 +81,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Perritos de Mocoa, los otros afectados que pocos han atendido</h2>
                 <p>5 de Abril, 2017 por Pilar Cuartas Rodríguez</p>
@@ -95,7 +95,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>La Fundación ARCA le apuesta a la recuperación de Mocoa</h2>
                 <p>11 de Septiembre, 2017 por MiPutumayo</p>
@@ -111,7 +111,7 @@
             </div>  
         </article>
 
-        <article>
+        <article class="p-5 mt-5" style="background-color: rgba(255, 140, 0, 0.055);border-radius:10px">
             <div class="col p-5">
                 <h2>Animales en el Plan Nacional del Gestión del Riesgo - Colombia</h2>
                 {{-- <p>2 mayo, 2016 por MiPutumayo</p> --}}

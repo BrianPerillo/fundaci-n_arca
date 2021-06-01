@@ -5,10 +5,8 @@
         <div class="col-sm-12 col-md-6">
           <h6>About</h6>
           <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Somos una organización sin ánimo de lucro que viene desarrollando una labor social desde hace 9 años beneficiando a comunidades a través de líneas estratégicas 
+            enfocadas en Salud, educación y medio ambiente que buscan transformar la forma de cohabitar en armonía con el planeta.
           </p>
         </div>
 
@@ -22,11 +20,12 @@
         <div class="col-xs-6 col-md-3">
           <h6>Links</h6>
           <ul class="footer-links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Lineas De Acción</a></li>
+            <li><a href="{{ route('home') }}">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="{{ route('noticias') }}">Noticias</a></li>
+            <li><a href="{{ route('proyectos') }}">Proyectos</a></li>
+            <li><a href="{{ route('lineas_accion') }}">Lineas De Acción</a></li>
+            <li><a href="{{ route('donation') }}">Donar</a></li>
           </ul>
         </div>
       </div>
@@ -35,9 +34,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-              Fundación Arca
+          <p class="copyright-text">
+            Sitio realizado por Brian Emiliano Perillo
           </p>
+          <br>
         </div>
 
         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -46,6 +46,13 @@
           </ul>
         </div>
       </div>
+
+      <div class="d-flex justify-content-center">
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+          Fundación Arca
+        </p>
+      </div>
+
     </div>
 </footer>
 
