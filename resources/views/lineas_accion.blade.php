@@ -104,7 +104,7 @@
         </div>
 
         <hr>
-        
+
         {{-- Blibioteca Comunitaria --}}
 
         <div id="blibioteca" class="p-3">
@@ -365,51 +365,55 @@
 
             </div>
 
-            <div id="videos" class="mt-5">
-                <div class="col" style="width:100%;">
-                    <div class="d-flex justify-content-center">
+            <div class="row">
 
-                        <video controls>
-                            <source src="{{asset('imgs/lineas_accion/foros/video.mp4')}}" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                <div id="videos" class="col-sm-12 col-md-6 mt-5">
 
-                    </div>
-                </div>
-            </div>
+                        <div class="d-flex justify-content-center">
 
-            <div id="images" class="mt-5">
+                            <video class="col-md-12" controls>
+                                <source src="{{asset('imgs/lineas_accion/foros/video.mp4')}}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
 
-                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
-
-                    <div id="slider5" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                          <li data-target="#slider5" data-slide-to="0" class="active"></li>
-                          <li data-target="#slider5" data-slide-to="1"></li>
-                          <li data-target="#slider5" data-slide-to="2"></li>
-                        </ol>
-    
-                        <div class="carousel-inner" style="width:400px">
-    
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Primera.jpg')}}" alt="First slide">
-                            </div>
-    
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Segunda.jpg')}}" alt="Second slide">
-                            </div>
-    
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Tercera.jpg')}}" alt="Third slide">
-                            </div>
-    
                         </div>
-    
-                    </div>
 
                 </div>
-                
+
+                <div id="images" class="col-sm-12 col-md-6 mt-5">
+
+                    <div class="col-md-12 d-flex justify-content-center" style="margin-bottom:50px">
+
+                        <div id="slider5" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                            <li data-target="#slider5" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider5" data-slide-to="1"></li>
+                            <li data-target="#slider5" data-slide-to="2"></li>
+                            </ol>
+        
+                            <div class="carousel-inner" style="width:355px">
+        
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Primera.jpg')}}" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Segunda.jpg')}}" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Tercera.jpg')}}" alt="Third slide">
+                                </div>
+        
+                            </div>
+        
+                        </div>
+
+                    </div>
+                    
+                </div>
+
             </div>
 
         </div>
@@ -421,56 +425,6 @@
         <div id="atencion_animales" class="p-3">
             
             <h2 style="text-align: center">Atención a los animales en situación de desastre Mocoa-2.017</h2>
-        
-            <div id="videos" class="mt-5">
-                <div class="col" style="width:100%;">
-                    <div class="d-flex justify-content-center">
-                        <video controls>
-                            <source src="{{asset('imgs/lineas_accion/situacion_desastre/video.mp4')}}" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        
-            <div id="images" class="mt-5">
-
-                <div class="row d-flex justify-content-center" style="margin-bottom:50px">
-
-                    <div id="slider6" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                          <li data-target="#slider6" data-slide-to="0" class="active"></li>
-                          <li data-target="#slider6" data-slide-to="1"></li>
-                          <li data-target="#slider6" data-slide-to="2"></li>
-                          <li data-target="#slider6" data-slide-to="3"></li>
-                        </ol>
-    
-                        <div class="carousel-inner" style="width:400px">
-
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Primera.jpg')}}" alt="First slide">
-                            </div>
-    
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Segunda.jpg')}}" alt="Second slide">
-                            </div>
-    
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Tercera.jpg')}}" alt="Third slide">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Cuarta.jpg')}}" alt="Fourth slide">
-                            </div>
-    
-                        </div>
-    
-                    </div>
-                    
-                </div>
-                        
-            </div>
 
             <div id="texto" class="mt-5 pb-3">
                 <p>        
@@ -487,6 +441,60 @@
                     Nacional para la Gestión del Riesgo de Desastres.
                 </p>
         
+            </div>
+
+            <div class="row">
+
+                <div id="videos" class="col-sm-12 col-md-6 mt-5">
+
+                        <div class="d-flex justify-content-center">
+                            <video class="col-md-12" controls>
+                                <source src="{{asset('imgs/lineas_accion/situacion_desastre/video.mp4')}}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                </div>
+            
+                <div id="images" class="col-sm-12 col-md-6 mt-5">
+
+                    <div class="row d-flex justify-content-center" style="margin-bottom:50px">
+
+                        <div id="slider6" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                            <li data-target="#slider6" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider6" data-slide-to="1"></li>
+                            <li data-target="#slider6" data-slide-to="2"></li>
+                            <li data-target="#slider6" data-slide-to="3"></li>
+                            </ol>
+        
+                            <div class="carousel-inner" style="width:275px">
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Primera.jpg')}}" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Segunda.jpg')}}" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Tercera.jpg')}}" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Cuarta.jpg')}}" alt="Fourth slide">
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
             </div>
         
         </div>
