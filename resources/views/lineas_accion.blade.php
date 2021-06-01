@@ -53,16 +53,46 @@
                         <ol class="carousel-indicators">
                           <li data-target="#slider1" data-slide-to="0" class="active"></li>
                           <li data-target="#slider1" data-slide-to="1"></li>
+                          <li data-target="#slider1" data-slide-to="2"></li>
+                          <li data-target="#slider1" data-slide-to="3"></li>
+                          <li data-target="#slider1" data-slide-to="4"></li>
+                          <li data-target="#slider1" data-slide-to="5"></li>
+                          <li data-target="#slider1" data-slide-to="6"></li>
+                          <li data-target="#slider1" data-slide-to="7"></li>
                         </ol>
 
-                        <div class="carousel-inner" style="width:400px">
+                        <div class="carousel-inner" style="width:450px;height:450px">
 
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://static.wixstatic.com/media/9da56f_e3890ac5078b44eca09a716af4471fe9~mv2.jpg/v1/fill/w_241,h_250,al_c,q_80,usm_0.33_1.00_0.00/9da56f_e3890ac5078b44eca09a716af4471fe9~mv2.webp" alt="First slide">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_e3890ac5078b44eca09a716af4471fe9_mv2.jpg')}}" alt="First slide">
                           </div>
 
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="https://static.wixstatic.com/media/9da56f_3fbed0496222488bb8c0cac0fc32d868~mv2.jpg/v1/fill/w_241,h_250,al_c,q_80,usm_0.33_1.00_0.00/9da56f_3fbed0496222488bb8c0cac0fc32d868~mv2.webp" alt="Second slide">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_3fbed0496222488bb8c0cac0fc32d868_mv2.jpg')}}" alt="Second slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_10e4a717a25c433ea6de157a1b2b2401_mv2.jpg')}}" alt="Third slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_047819cd08ed4617824ae0c4f76f0579_mv2.jpg')}}" alt="Fourth slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_703533a6069c4d719683c22463991e54_mv2.jpg')}}" alt="Fifth slide">
+                          </div>educacion
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_7b220c8d66854467975f63b1bd2b4e3d_mv2.jpg')}}" alt="Sixth slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_7f09b714c7274bc29f0b30c3aa3a8d74_mv2.jpg')}}" alt="Seventh slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/educacion/9da56f_a902727a61504c86b86e7bfa9db3c40e_mv2.jpg')}}" alt="Eighth slide">
                           </div>
 
                         </div>
