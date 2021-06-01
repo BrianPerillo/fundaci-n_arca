@@ -30,7 +30,7 @@
 
         <div id="educacion" class="p-3">
             
-            <h2>Educación</h2>
+            <h2 style="text-align: center">Educación</h2>
 
             <div id="texto" class="mt-5 pb-3">
                 <p>        
@@ -103,12 +103,13 @@
 
         </div>
 
-
+        <hr>
+        
         {{-- Blibioteca Comunitaria --}}
 
         <div id="blibioteca" class="p-3">
             
-            <h2>Biblioteca comunitaria</h2>
+            <h2 style="text-align: center">Biblioteca comunitaria</h2>
 
             <div id="texto" class="mt-5 pb-3">
                 <p>        
@@ -159,11 +160,13 @@
 
         </div>
 
+        <hr>
+
         {{-- Brigadas de salud --}}
 
         <div id="salud" class="p-3">
             
-            <h2>Brigadas de salud</h2>
+            <h2 style="text-align: center">Brigadas de salud</h2>
 
             <div id="texto" class="mt-5 pb-3">
                 <p>        
@@ -263,11 +266,13 @@
 
         </div>
 
+        <hr>
+
        {{-- Brigadas de esterilización --}}
 
        <div id="esterilizacion" class="p-3">
             
-        <h2>Brigadas de esterilización</h2>
+        <h2 style="text-align: center">Brigadas de esterilización</h2>
 
         <div id="texto" class="mt-5 pb-3">
             <p>        
@@ -343,11 +348,13 @@
 
     </div>        
 
+    <hr>
+
         {{--Foros --}}
 
         <div id="foros" class="p-3">
             
-            <h2>Foro por los derechos de los animales</h2>
+            <h2 style="text-align: center">Foro por los derechos de los animales</h2>
 
             <div id="texto" class="mt-5 pb-3">
                 <p>        
@@ -365,7 +372,7 @@
                         <video controls>
                             <source src="{{asset('imgs/lineas_accion/foros/video.mp4')}}" type="video/mp4">
                             Your browser does not support the video tag.
-                          </video>
+                        </video>
 
                     </div>
                 </div>
@@ -407,16 +414,21 @@
 
         </div>
 
+        <hr>
+
         {{-- Atención a los animales en situación de desastre Mocoa-2.017 --}}
 
         <div id="atencion_animales" class="p-3">
             
-            <h2>Atención a los animales en situación de desastre Mocoa-2.017</h2>
+            <h2 style="text-align: center">Atención a los animales en situación de desastre Mocoa-2.017</h2>
         
             <div id="videos" class="mt-5">
                 <div class="col" style="width:100%;">
                     <div class="d-flex justify-content-center">
-                         <video src="" style="background-color:black;width:80%"></video>
+                        <video controls>
+                            <source src="{{asset('imgs/lineas_accion/situacion_desastre/video.mp4')}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
@@ -430,17 +442,27 @@
                         <ol class="carousel-indicators">
                           <li data-target="#slider6" data-slide-to="0" class="active"></li>
                           <li data-target="#slider6" data-slide-to="1"></li>
+                          <li data-target="#slider6" data-slide-to="2"></li>
+                          <li data-target="#slider6" data-slide-to="3"></li>
                         </ol>
     
                         <div class="carousel-inner" style="width:400px">
+
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Primera.jpg')}}" alt="First slide">
+                            </div>
     
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
-                          </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Segunda.jpg')}}" alt="Second slide">
+                            </div>
     
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
-                          </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Tercera.jpg')}}" alt="Third slide">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/situacion_desastre/Cuarta.jpg')}}" alt="Fourth slide">
+                            </div>
     
                         </div>
     
