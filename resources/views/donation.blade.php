@@ -6,7 +6,7 @@
 
         <h2>Colaborar con nuestra causa</h2>
 
-            <div class="mt-5 p-4" style="background-color: rgba(230, 130, 8, 0.034)">
+            <div class="mt-5 p-4" style="background-color: rgba(255, 140, 0, 0.09);border-radius:10px">
 
                 <p>
                     Si querés apoyarnos podés realizar una donación mediante nuestro botón de PayPal!

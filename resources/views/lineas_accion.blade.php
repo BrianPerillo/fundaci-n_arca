@@ -28,7 +28,7 @@
 
         {{-- EDUCACIÓN --}}
 
-        <div id="educacion" class="p-3" style="margin-bottom:100px">
+        <div id="educacion" class="p-3">
             
             <h2>Educación</h2>
 
@@ -361,7 +361,12 @@
             <div id="videos" class="mt-5">
                 <div class="col" style="width:100%;">
                     <div class="d-flex justify-content-center">
-                        <video src="" style="background-color:black;width:80%"></video>
+
+                        <video controls>
+                            <source src="{{asset('imgs/lineas_accion/foros/video.mp4')}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+
                     </div>
                 </div>
             </div>
@@ -375,17 +380,22 @@
                         <ol class="carousel-indicators">
                           <li data-target="#slider5" data-slide-to="0" class="active"></li>
                           <li data-target="#slider5" data-slide-to="1"></li>
+                          <li data-target="#slider5" data-slide-to="2"></li>
                         </ol>
     
                         <div class="carousel-inner" style="width:400px">
     
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
-                          </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Primera.jpg')}}" alt="First slide">
+                            </div>
     
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
-                          </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Segunda.jpg')}}" alt="Second slide">
+                            </div>
+    
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="{{asset('imgs/lineas_accion/foros/Tercera.jpg')}}" alt="Third slide">
+                            </div>
     
                         </div>
     
