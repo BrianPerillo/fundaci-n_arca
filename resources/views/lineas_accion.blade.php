@@ -104,7 +104,7 @@
         </div>
 
 
-        {{-- Blibioteca --}}
+        {{-- Blibioteca Comunitaria --}}
 
         <div id="blibioteca" class="p-3">
             
@@ -126,16 +126,26 @@
                         <ol class="carousel-indicators">
                           <li data-target="#slider2" data-slide-to="0" class="active"></li>
                           <li data-target="#slider2" data-slide-to="1"></li>
+                          <li data-target="#slider2" data-slide-to="2"></li>
+                          <li data-target="#slider2" data-slide-to="3"></li>
                         </ol>
 
                         <div class="carousel-inner" style="width:400px">
 
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/biblioteca_comunitaria/9da56f_7dece3e244144bbf8b65dce83ed537fd_mv2.jpg')}}" alt="First slide">
                           </div>
 
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/biblioteca_comunitaria/9da56f_741f7b778db74fd09232d42808ac3c74_mv2.jpg')}}" alt="Second slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/biblioteca_comunitaria/9da56f_1ccb8cfad5af40e9b9ec1c52812c9c2d_mv2.jpg')}}" alt="Third slide">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/lineas_accion/biblioteca_comunitaria/9da56f_98904920499541cb8ae0e6cf5bb5d66f_mv2.jpg')}}" alt="Fourth slide">
                           </div>
 
                         </div>
