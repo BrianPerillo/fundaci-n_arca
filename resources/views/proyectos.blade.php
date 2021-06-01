@@ -160,17 +160,37 @@
                     <ol class="carousel-indicators">
                       <li data-target="#slider3" data-slide-to="0" class="active"></li>
                       <li data-target="#slider3" data-slide-to="1"></li>
+                      <li data-target="#slider3" data-slide-to="2"></li>
+                      <li data-target="#slider3" data-slide-to="3"></li>
+                      <li data-target="#slider3" data-slide-to="4"></li>
+                      <li data-target="#slider3" data-slide-to="5"></li>
                     </ol>
 
-                    <div class="carousel-inner" style="width:500px">
+                    <div class="carousel-inner" style="height:300px">
 
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
-                      </div>
+                        <div class="carousel-item active">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_b141c586201c477db60353db0eaa54f6_mv2.jpg')}}" alt="First slide">
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_65796d4aa6d648eb8785b0debaa1bdc3_mv2.jpg')}}" alt="Second slide">
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_e113f45166ee4add9256f65fca85d35c_mv2.jpg')}}" alt="Third slide">
+                        </div>
 
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
-                      </div>
+                        <div class="carousel-item">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_4729797f6a3e49c98d9521142407117e_mv2.jpg')}}" alt="Fourth slide">
+                        </div>
+     
+                        <div class="carousel-item">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_d5d6686058494447aa42b32d9beeb065_mv2.jpg')}}" alt="Fifth slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_482bd4c612b54f32aa26753d80547ab6_mv2.jpg')}}" alt="Sixth slide">
+                        </div>
 
                     </div>
 
@@ -208,19 +228,34 @@
                 <div id="slider4" class="carousel slide" data-ride="carousel">
 
                     <ol class="carousel-indicators">
-                      <li data-target="#slider4" data-slide-to="0" class="active"></li>
-                      <li data-target="#slider4" data-slide-to="1"></li>
+                        <li data-target="#slider4" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider4" data-slide-to="1"></li>
+                        <li data-target="#slider4" data-slide-to="2"></li>
+                        <li data-target="#slider4" data-slide-to="3"></li>
+                        <li data-target="#slider4" data-slide-to="4"></li>
                     </ol>
 
-                    <div class="carousel-inner" style="width:500px">
+                    <div class="carousel-inner" style="max-height:400px">
 
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://espacio.fundaciontelefonica.com.ar/wp-content/uploads/2015/10/talleres-espacio-1400x600-1400x600.jpg" alt="First slide">
-                      </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_d23e17a193004aef9a342bca7c41d2d1_mv2.jpg')}}" alt="First slide">
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_dcfbc45d6404490da4a01828049b91a6_mv2.jpg')}}" alt="Second slide">
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_5cddf0f339d34785b9418d9a2aeb495a_mv2.jpg')}}" alt="Third slide">
+                        </div>
 
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt="Second slide">
-                      </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_a59acf839dd0455cb5e94ab1b1cb649c_mv2.jpg')}}" alt="Fourth slide">
+                        </div>
+     
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_81abdbac6a8e42e2b0f3f005a6363e52_mv2.jpg')}}" alt="Fifth slide">
+                        </div>
 
                     </div>
 
