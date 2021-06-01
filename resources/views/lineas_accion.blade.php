@@ -7,14 +7,14 @@
 
 {{-- MENÚ --}}
 
-    <div class="d-flex justify-content-center" style="position:sticky;top:0px;z-index:1;background: rgb(255, 175, 2);height:50px">
-        <ul id="menu_lineas_accion" class="d-flex justify-content-center" style="padding-top:10px">
+    <div class="d-flex justify-content-center" style="position:sticky;top:0px;z-index:1;background: rgb(255, 175, 2);height:60px">
+        <ul id="menu_lineas_accion" class="d-flex justify-content-center mt-2" style="padding-top:10px">
             <li style="margin-left:0px"><a href="#educacion">Educación</a></li>
             <li><a href="#blibioteca">Bibliotecas comunitaria</a></li>
             <li><a href="#salud">Salud</a></li>
             <li><a href="#esterilizacion">Esterilización</a></li>
             <li><a href="#foros">Foros</a></li>
-            <li><a href="#atencion_animales">Animales en situación de desastre</a></li>
+            <li><a href="#atencion_animales">Rescate</a></li>
         </ul>
     </div>
 
