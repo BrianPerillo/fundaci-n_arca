@@ -3,10 +3,10 @@
 
 <div class="container" style="margin-bottom: 150px">
 
-    <section id="noticias">
+    <section id="noticias" class="">
 
         <article>
-            <div class="col">
+            <div class="col pl-5 pr-5 pb-5">
                 <h2>Fundación ARCA realiza jornadas de salud animal en Mocoa y Puerto Asís</h2>
                 <p>28 febrero, 2014 por MiPutumayo</p>
                 <p class="mt-2">
