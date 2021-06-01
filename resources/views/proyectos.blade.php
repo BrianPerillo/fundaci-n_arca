@@ -5,8 +5,8 @@
     <div><img src="https://www.gdfe.org.ar/wp-content/uploads/2017/04/a47812_613e2742de93463b94b1f1ee9f010580mv2_d_1800_1800_s_2-1200x675.jpg" alt=""></div>
 </div> --}}
 
-<section id="proyectos" style="margin-top:250px; margin-bottom:150px">
-
+<section id="proyectos" style="margin-bottom:150px">
+        
     <div class="container">
 
         <div class="row">

@@ -30,44 +30,48 @@
     </head>
 
     <body>
+           <header id="header">
+            <nav class="navbar navbar-expand-lg" style="width:50%; margin:auto; height:100%; padding:10px">
 
-        <header class="">
-           
-                <nav class="container" style="width: 100%; height:100%;padding:10px">
+                <a href="{{ route('home') }}" class="navbar-brand" data-abc="true">
+                    <img style="width:140px;height:110px" src="{{asset("imgs/logo.jpg")}}" alt="">
+                </a> 
 
-                    <div style="margin: auto;height: 100%;width: 100%">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="fa fa-bars" aria-hidden="true"></span> 
+                </button>
 
-                        <div class="" style="float: left; padding-left:50px; margin-top:10px">
-                            <div class="float-right">
-                                <a href="{{ route('home') }}">
-                                    <img style="width:140px;height:110px" src="{{asset("imgs/logo.jpg")}}" alt="">
-                                </a>
-                            </div>
+                <div class="collapse navbar-collapse" id="navbarColor02"> 
+
+                    <ul id="menu" class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('noticias') }}">Noticias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('proyectos') }}">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('donation') }}">Donar</a></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+                {{-- 
+
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#" data-abc="true">BBBOOTSTRAP</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbarColor02">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active"> <a class="nav-link" href="#" data-abc="true">HTML <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#" data-abc="true">CSS</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#" data-abc="true">JAVASCRIPT</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#" data-abc="true">BOOTSTRAP</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#" data-abc="true">PHP</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#" data-abc="true">JAVA</a> </li>
+                            </ul>
                         </div>
+                    </nav>
 
-                        <div class="" style="float: right;padding-top:30px">
-                        
-                                <div class="row p-3">
-
-                                    <div class="col-md-12" style="text-align: right;margin-left:30px">
-                                        <ul id="menu">
-                                            <li><a href="{{ route('home') }}">Inicio</a></li>
-                                            <li><a href="#nosotros">Nosotros</a></li>
-                                            <li><a href="{{ route('noticias') }}">Noticias</a></li>
-                                            <li><a href="{{ route('proyectos') }}">Proyectos</a></li>
-                                            <li style="width:24%"><a href="{{ route('lineas_accion') }}">Lineas de Acción</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                        
-                        </div>
-
-                    </div>
-
-                </nav>
-         
+                --}}
            
-        </header>
 
    
 

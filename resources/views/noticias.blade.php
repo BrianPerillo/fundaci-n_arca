@@ -1,12 +1,12 @@
 @include('includes.header')
 
 
-<div class="container pt-5" style="margin-bottom: 150px">
+<div class="container" style="margin-bottom: 150px">
 
-    <section id="noticias" class="pt-5">
+    <section id="noticias">
 
         <article>
-            <div class="col p-5">
+            <div class="col">
                 <h2>Fundación ARCA realiza jornadas de salud animal en Mocoa y Puerto Asís</h2>
                 <p>28 febrero, 2014 por MiPutumayo</p>
                 <p class="mt-2">

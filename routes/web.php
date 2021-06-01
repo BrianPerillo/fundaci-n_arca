@@ -6,6 +6,7 @@ use App\Http\Controllers\NoticiasController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LineasAccionController;
 use App\Http\Controllers\ProyectosController;
+use App\Http\Controllers\DonarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,5 @@ Route::get('/noticias', [NoticiasController::class, "index"])->name('noticias');
 Route::get('/lineas_de_acción', [LineasAccionController::class, "show"])->name('lineas_accion');
 
 Route::get('/proyectos', [ProyectosController::class, "show"])->name('proyectos');
+
+Route::get('/donar', [DonarController::class, "show"])->name('donation');

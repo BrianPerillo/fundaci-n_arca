@@ -4,13 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
-
+class DonarController extends Controller
 {
     
-    function index(){
+    function show(){
 
-        return view('home');
+        return view('donation');
         
     }
 
