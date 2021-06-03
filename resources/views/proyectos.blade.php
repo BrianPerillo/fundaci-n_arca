@@ -11,9 +11,9 @@
 
         {{-- PROYECTO 1 --}}
 
-        <div id="proyecto1" class="row">
+        <div id="proyecto1" class="col">
 
-            <div class="col-md-6 m-2">
+            <div class="col m-2">
                 <h3 style="text-align: justify">Apoyo a campañas educativas de tenencia responsable de animales de compañía en el municipio de Puerto Asís - 2014</h3>
                 
                 <br>
@@ -34,33 +34,33 @@
             
             </div>
 
-            <div class="col m-2">
-                <div id="slider1" class="carousel slide" data-ride="carousel">
+            <div class="col mt-5 d-flex justify-content-center">
+                <div id="slider1" class="carousel slide d-flex justify-content-center" data-ride="carousel" style="width:100%"> 
 
                     <ol class="carousel-indicators">
                       <li data-target="#slider1" data-slide-to="0" class="active"></li>
                       <li data-target="#slider1" data-slide-to="1"></li>
-                      <li data-target="#slider1" data-slide-to="2"></li>
-                      <li data-target="#slider1" data-slide-to="3"></li>
+                      {{-- <li data-target="#slider1" data-slide-to="2"></li>
+                      <li data-target="#slider1" data-slide-to="3"></li> --}}
                     </ol>
 
-                    <div class="carousel-inner" style="height:350px">
+                    <div class="carousel-inner" style="max-height:800px;max-width:800px">
 
                       <div class="carousel-item active">
-                        <img  style="height:350px" class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_939f1f58ef4849c99f17a82dd8aa2235_mv2.jpg')}}" alt="First slide">
+                        <img  class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_939f1f58ef4849c99f17a82dd8aa2235_mv2.jpg')}}" alt="First slide">
                       </div>
 
                       <div class="carousel-item">
-                        <img style="height:350px" class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_36a2af88593d444389c8abd955c54675_mv2.jpg')}}" alt="Second slide">
+                        <img class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_36a2af88593d444389c8abd955c54675_mv2.jpg')}}" alt="Second slide">
+                      </div>
+
+                      {{-- <div class="carousel-item">
+                        <img  class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_823af913af6d4aeea0fc9e2a75db7c2d_mv2.jpg')}}" alt="Third slide">
                       </div>
 
                       <div class="carousel-item">
-                        <img style="height:350px" class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_823af913af6d4aeea0fc9e2a75db7c2d_mv2.jpg')}}" alt="Third slide">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img style="height:350px" class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_5b5e195afe474876bd610ba4d5c3e538_mv2.jpg')}}" alt="Fourth slide">
-                      </div>
+                        <img  class="d-block w-100" src="{{asset('imgs/proyectos/1ero/9da56f_5b5e195afe474876bd610ba4d5c3e538_mv2.jpg')}}" alt="Fourth slide">
+                      </div> --}}
 
                     </div>
 
@@ -69,11 +69,13 @@
 
         </div>
 
+        <hr>
+
         {{-- PROYECTO 2 --}}
 
-        <div id="proyecto2" class="row" style="margin-top:100px">
+        <div id="proyecto2" class="col" style="margin-top:100px">
 
-            <div class="col-md-6 m-2">
+            <div class="col m-2">
                 <h3 style="text-align: justify">Promover y fomentar la tenencia de fauna en el municipio de Puerto Asís - 2015</h3>
                 
                 <br>
@@ -94,8 +96,8 @@
             
             </div>
 
-            <div class="col m-2">
-                <div id="slider2" class="carousel slide" data-ride="carousel">
+            <div class="col mt-5 d-flex justify-content-center">
+                <div id="slider2" class="carousel slide d-flex justify-content-center" data-ride="carousel" style="width:80%">
 
                     <ol class="carousel-indicators">
                       <li data-target="#slider2" data-slide-to="0" class="active"></li>
@@ -104,7 +106,7 @@
                       {{-- <li data-target="#slider2" data-slide-to="3"></li> --}}
                     </ol>
 
-                    <div class="carousel-inner" style="max-height:400px">
+                    <div class="carousel-inner" style="max-height:800px;max-width:800px">
 
                       <div class="carousel-item active">
                         <img class="d-block w-100" src="{{asset('imgs/proyectos/2do/9da56f_25bba85dccd442aa8ded22b61a08c4f4_mv2,jpg.jpg')}}" alt="First slide">
@@ -129,11 +131,12 @@
 
         </div>
 
+        <hr>
         {{-- PROYECTO 3 --}}
 
-        <div id="proyecto2" class="row" style="margin-top:100px">
+        <div id="proyecto2" class="col" style="margin-top:100px">
 
-            <div class="col-md-6 m-2">
+            <div class="col m-2">
                 <h3 style="text-align: justify">Campaña por los derechos de los animales en el municipio de Mocoa - 2016</h3>
                 
                 <br>
@@ -154,8 +157,8 @@
             
             </div>
 
-            <div class="col m-2">
-                <div id="slider3" class="carousel slide" data-ride="carousel">
+            <div class="col mt-5 d-flex justify-content-center">
+                <div id="slider3" class="d-flex justify-content-center carousel slide" data-ride="carousel" style="width:100%">
 
                     <ol class="carousel-indicators">
                       <li data-target="#slider3" data-slide-to="0" class="active"></li>
@@ -166,7 +169,7 @@
                       <li data-target="#slider3" data-slide-to="5"></li>
                     </ol>
 
-                    <div class="carousel-inner" style="height:300px">
+                    <div class="carousel-inner" style="max-height:400px;max-width:800px">
 
                         <div class="carousel-item active">
                             <img style="height:300px" class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_b141c586201c477db60353db0eaa54f6_mv2.jpg')}}" alt="First slide">
@@ -199,11 +202,12 @@
 
         </div>
 
+        <hr>
         {{-- PROYECTO 4 --}}
 
-        <div id="proyecto2" class="row" style="margin-top:100px">
+        <div id="proyecto2" class="col" style="margin-top:100px">
 
-            <div class="col-md-6 m-2">
+            <div class="col m-2">
                 <h3 style="text-align: justify">Apoyo en servicios de salud y esterilización a animales de población damnificada por la avenida torrencial en el municipio de Mocoa - 2017</h3>
                 
                 <br>
@@ -224,8 +228,8 @@
             
             </div>
 
-            <div class="col m-2">
-                <div id="slider4" class="carousel slide" data-ride="carousel">
+            <div class="col mt-5 d-flex justify-content-center">
+                <div id="slider4" class="carousel slide d-flex justify-content-center" data-ride="carousel" style="width:100%"> 
 
                     <ol class="carousel-indicators">
                         <li data-target="#slider4" data-slide-to="0" class="active"></li>
@@ -235,7 +239,7 @@
                         <li data-target="#slider4" data-slide-to="4"></li>
                     </ol>
 
-                    <div class="carousel-inner" style="max-height:400px">
+                    <div class="carousel-inner" style="max-height:800px;max-width:800px">
 
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_d23e17a193004aef9a342bca7c41d2d1_mv2.jpg')}}" alt="First slide">
@@ -254,7 +258,7 @@
                         </div>
      
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="{{asset('imgs/proyectos/3ero/9da56f_81abdbac6a8e42e2b0f3f005a6363e52_mv2.jpg')}}" alt="Fifth slide">
+                            <img class="d-block w-100" src="{{asset('imgs/proyectos/4to/9da56f_81abdbac6a8e42e2b0f3f005a6363e52_mv2.jpg')}}" alt="Fifth slide">
                         </div>
 
                     </div>
