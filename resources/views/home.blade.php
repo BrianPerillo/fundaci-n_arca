@@ -152,18 +152,26 @@
                 <h3>Contacto</h3>
                 <div class="p-5">
                 <p>Para obtener mayor información comuníquese</p>
-                    <form  action="">
+                    <form  action="{{route('contact')}}" method="POST">
+                        @csrf
+
                         <div class="form-group">
                             <div class="mb-4">
-                                <input class="form-control" style="height:60px" type="text" name="" id="" placeholder="Nombre">
+                                <input name="name" class="form-control" style="height:60px" type="text" id="" placeholder="Nombre">
                             </div>
                             <div class="mb-4">
-                                <input class="form-control" style="height:60px" type="text" name="" id="" placeholder="Asunto">
+                                <input name="subject" class="form-control" style="height:60px" type="text" id="" placeholder="Asunto">
+                            </div>
+                            <div class="mb-4">
+                                <input name="mail" class="form-control" style="height:60px" type="email" id="" placeholder="Email">
                             </div>
                             <div class="">
-                                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                                <textarea name="message" class="form-control" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                             </div>
                         </div>
+
+                        <button class="btn btn-primary float-right" type="submit">Enviar</button>
+
                     </form>
                 </div>
             </div>
