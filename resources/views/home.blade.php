@@ -129,6 +129,18 @@
            </div>
        </article>
 
+       <article id="aliados" style="margin-top:100px">
+        <div class="container content p-2">
+            <h2 style="text-align: center">Nuestro Aliados</h2>
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="col-md-3">
+                        <img class="aliado-hover" src="{{asset('imgs/aliados/logo_universidad_de_la_amazonia.png')}}" alt="" style="width:100%;margin:auto;display:block">
+                    </div>                  
+               </div>                  
+           </div>
+       </div>
+   </article>
+
 </section>
 
 <section id="contacto" style="background-color:rgba(223, 223, 223, 0.438)">

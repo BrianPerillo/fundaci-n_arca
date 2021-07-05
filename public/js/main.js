@@ -33,10 +33,17 @@ $(document).ready(function(){
     .addTo(controller)
 
     var scene = new ScrollMagic.Scene({
-      triggerElement: '#valores .content' 
+      triggerElement: '#valores .content'
+    })
+    .setClassToggle('#aliados .content', 'fade_in') 
+    .addTo(controller) 
+
+    var scene = new ScrollMagic.Scene({
+      triggerElement: '#aliados .content' 
     })
     .setClassToggle('#contacto .container', 'fade_in') 
     .addTo(controller)
+
 
 });
 

@@ -130,6 +130,16 @@ a:hover {
     padding: 50px;
 }
 
+.aliado-hover{
+    filter: grayscale(20%);
+    opacity: 0.85;
+    transition: all 500ms;
+}
+
+.aliado-hover:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+}
 
 /* Efectos para animación Scroll con ScrollMagic */
 
@@ -145,19 +155,24 @@ a:hover {
     transition: all 1300ms ease-out;
 }
 
-
 #about_us div #valores .content{
     opacity: 0;
     transform: translateX(-100px);
     transition: all 1300ms ease-out;
 }
 
+#about_us div #aliados .content{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1300ms ease-out;
+}
+
+
 #contacto .container{
     transform: translateY(200px);
     opacity: 0;
     transition: all 800ms ease-out;
 }
-
 
 
 #nosotros .content.fade_in{
@@ -176,6 +191,11 @@ a:hover {
 }
 
 #about_us div #valores .content.fade_in{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#about_us div #aliados .content.fade_in{
     opacity: 1;
     transform: translateX(0px);
 }
