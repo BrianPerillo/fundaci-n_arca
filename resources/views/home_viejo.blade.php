@@ -1,61 +1,37 @@
 @include('includes.header')
   
-<div class="row" style="display:flex; justify-content:center">
+<div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel" style="width:80%;margin:auto">
 
-    <div class="col-md-7 p-0">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width:50px; height: 8px"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width:50px; height: 8px"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" style="width:50px; height: 8px"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3" style="width:50px; height: 8px"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4" style="width:50px; height: 8px"></li>
+    </ol>
 
-        <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel" style="width:100%;margin:auto">
+    <div class="carousel-inner">
 
-            <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width:50px; height: 8px"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width:50px; height: 8px"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2" style="width:50px; height: 8px"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3" style="width:50px; height: 8px"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4" style="width:50px; height: 8px"></li>
-            </ol>
-
-            <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <img class="d-block w-100"  style="max-height:700px" src="{{asset('imgs/slider/5.jpg')}}" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  style="max-height:700px" src="{{asset('imgs/slider/2.jpg')}}" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  style="max-height:700px" src="{{asset('imgs/slider/1.jpg')}}" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  style="max-height:700px" src="{{asset('imgs/slider/3.jpg')}}" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"  style="max-height:700px" src="{{asset('imgs/slider/4.jpg')}}" alt="Third slide">
-                </div>
-
-            </div>
-            
+        <div class="carousel-item active">
+            <img class="d-block w-100"  style="max-height:800px" src="{{asset('imgs/slider/5.jpg')}}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100"  style="max-height:800px" src="{{asset('imgs/slider/2.jpg')}}" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100"  style="max-height:800px" src="{{asset('imgs/slider/1.jpg')}}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100"  style="max-height:800px" src="{{asset('imgs/slider/3.jpg')}}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100"  style="max-height:800px" src="{{asset('imgs/slider/4.jpg')}}" alt="Third slide">
         </div>
 
     </div>
-
-    <div class="col-md-12 col-lg-12 col-xl-4 mt-3 p-5" style="height:700px;background-color:rgb(255, 176, 30)">
-
-        <h3><strong style="color:white">Quienes Somos?</strong></h3>
-        <br>
-        <p style="color:white;font-weight:bold;text-align: justify;">Somos una organización sin ánimo de lucro que viene desarrollando una labor social desde hace 9 años beneficiando a comunidades a través de líneas estratégicas enfocadas en Salud, educación y medio ambiente que buscan transformar la forma de cohabitar en armonía con el planeta.</p>
-
-        <br>
-
-        <div style="margin-top:70px;text-align: center;">
-            <a href="#comienzo">
-                <span id="arrow">
-                    <i class="fas fa-arrow-down fa-4x"></i>
-                </span>
-            </a>
-        </div>
-    </div>
-
+    
 </div>
+
 
 
 {{-- <div class="slider">
@@ -66,15 +42,23 @@
 
 <section id="about_us" style="margin-top:50px">
 
-    {{-- <div class="container" style="margin-bottom:10px">
+    <div class="container" style="margin-bottom:10px">
         <h2 style="text-align: center;font-size:60px;color:grey">Fundación Arca</h2>
-    </div> --}}
+
+        <div style="margin-top:70px;text-align: center;">
+            <a href="#nosotros">
+                <span id="arrow">
+                    <i class="fas fa-arrow-down fa-4x"></i>
+                </span>
+            </a>
+        </div>
+    </div>
 
 
         
     <div class="">
 
-        {{-- <article id="nosotros" class="pt-5">
+        <article id="nosotros" class="pt-5">
             <div class="container content">
                 <h2>Quienes Somos?</h2>
                 <div class="row">
@@ -86,10 +70,8 @@
                     </div>                  
                 </div>
             </div>
-        </article> --}}
-        <div id="comienzo" style="height: 100px">
+        </article>
 
-        </div>
          <article id="mision" class="">
             <div class="container content">
                 <div class="row">
